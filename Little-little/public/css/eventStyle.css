@@ -1,0 +1,121 @@
+
+.firework {
+  background-image: url(/img/firework.svg);
+  background-size: cover;
+  height: 670px;
+}
+
+.article-main {
+}
+
+.article-top-1 {
+  width: 100%;
+  z-index: 0;
+}
+
+.article-top-2 {
+  width: 500px;
+}
+
+.article-top-3 {
+  width: 100%;
+  z-index: 0;
+}
+
+.card-img {
+  background-size: cover;
+  /* height: 200px; */
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  opacity: 1 !important;
+}
+
+.mySlides {
+  display: none
+}
+
+
+.slider {
+  width: 100%;
+  height: 518px;
+  position: relative;
+  margin: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slider .slide {
+  display: flex;
+  position: absolute;
+  left: 0;
+  transition: 0.3s left ease-in-out;
+}
+
+.slider .item {
+  margin-right: 10px;
+}
+
+.slider .item:last-child {
+  margin-right: 0;
+}
+
+.ctrl {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.ctrl-btn {
+  padding: 20px 20px;
+  min-width: 50px;
+  border: none;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+
+  position: absolute;
+  top: 30%;
+  margin-top: -27.5px;
+}
+
+.ctrl-btn.pro-prev {
+  left: -22px;
+}
+
+.ctrl-btn.pro-next {
+  right: -20px;
+}
+.ctrl-btn{
+  margin: -10px 100px;
+}
+.card-title{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+}
+.event-price{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+
+color: #FA7D09;
+position: absolute;
+bottom: 47px;
+}

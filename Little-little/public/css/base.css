@@ -1,0 +1,126 @@
+:root {
+  --primary-color: #1f2b6c;
+  --blue-color: #159eec;
+  --sky-color: #bfd2f8;
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+  --border-color: #dbdbdb;
+  --star-gold-color: #ffce3e;
+  --whitesmoke-color: #f5f5f5;
+  --background-color: -webkit-radial-gradient(#FFDB7E,#F17400);
+  --form-color:#FDE8B3;
+  --dashed-color: #FFB489;
+  --dashed-bg-color: #FFF6D4;
+}
+
+* {
+  font-family: Montserrat;
+  font-size: Medium;
+  box-sizing: inherit;
+  
+}
+
+html {
+  font-size: 100%;
+  line-height: 1.6rem;
+  font-family: "iCiel Koni", sans-serif;
+  box-sizing: border-box;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+.body-bg {
+  color: #FFF;
+  background: var(--background-color);
+  height: 810px !important;
+}
+.gradient-bg{
+  color: #FFF;
+  background: var(--background-color);
+  
+}
+
+.bg {
+  background-image: url('/img/bg.png');
+  background-size: cover;
+  border-radius: 85px;
+}
+
+.firework{
+  background-image: url(/img/firework.svg);
+  background-size: cover;
+}
+
+/* Intro general */
+.header-top{
+  background-image: url('/img/bg-header-top.svg');
+  background-size: cover;
+  height:107.82px;
+}
+
+.active{
+  border: 1px solid var(--white-color);
+  border-radius: 25px;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+  padding: 0.4em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  border: 2px solid transparent;
+  border-radius: 100px;
+  background-clip: content-box;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(110, 110, 110);
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+/* button */
+
+.btn-info-custom {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  font-size: 2.8rem;
+  font-weight: 700;
+  border-radius: 40px;
+  padding: 14px 34px;
+}
+
+.btn-info-custom:hover {
+  opacity: 0.8;
+  color: var(--white-color);
+}
+
+.btn-default-custom {
+  padding: 10px 20px;
+  font-size: 2rem;
+  color: var(--blue-color);
+}
+
+/* Header - bottom */
+.header-bottom {
+  width: 1285px;
+  margin: 0 auto;
+    background-image: url('/img/bg.png')!important;
+  height: inherit;
+  background-size: cover;
+}

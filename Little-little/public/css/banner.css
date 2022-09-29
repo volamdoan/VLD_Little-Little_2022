@@ -1,0 +1,126 @@
+.header-banner {
+  background-image: url(../img/banner.png);
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 450px;
+}
+
+.header-banner-wrapper {
+  position: relative;
+  height: 80vh;
+}
+
+.header-banner-introduce {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  padding: 14px;
+}
+
+.header-banner-text {
+  font-size: 2.4rem;
+  color: var(--blue-color);
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.header-banner-slogan {
+  margin-bottom: 28px;
+}
+
+.header-banner-slogan span {
+  font-size: 4.2rem;
+  color: var(--primary-color);
+  font-weight: 500;
+  line-height: 5.6rem;
+}
+
+.header-banner-intro-box {
+  position: absolute;
+  top: 92%;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column;
+}
+
+.banner-intro-box-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 50px 20px;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  flex-grow: 1;
+  margin: 4px 10px;
+}
+
+.banner-box-item-text {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: var(--white-color);
+  margin-left: 30px;
+}
+
+.banner-box-item-icon i {
+  color: var(--white-color);
+  font-size: 4.5rem;
+}
+
+.banner-intro-box-item-2 {
+  background-color: var(--sky-color);
+}
+
+.banner-intro-box-item-2 .banner-box-item-text {
+  color: var(--primary-color);
+}
+
+.banner-intro-box-item-3 {
+  background-color: var(--blue-color);
+}
+
+@media screen and (min-width: 756px) {
+  .header-banner-intro-box {
+    flex-direction: row;
+  }
+  .banner-intro-box-item {
+    flex-direction: column;
+  }
+
+  .banner-box-item-text {
+    margin-bottom: 16px;
+  }
+
+  .header-banner {
+    margin-bottom: 250px;
+  }
+
+  .header-banner-introduce {
+    top: 26%;
+  }
+
+  .header-banner-slogan {
+    font-size: 5.4rem;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .banner-intro-box-item {
+    flex-direction: row;
+    margin: 0 20px;
+  }
+
+  .banner-box-item-text {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-banner {
+    margin-bottom: 160px;
+  }
+}

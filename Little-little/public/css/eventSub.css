@@ -1,0 +1,30 @@
+.article-top-1{
+    width: 100%;
+    margin-top: -1%;
+}
+
+.article-main{
+    margin-top: -3% !important;
+    padding-bottom: 20px;
+}
+
+.article-top-3{
+    width: 100%;
+    margin-top: -2%;
+    float: right;
+}
+
+.article-middle-bg-2 {
+    background-color: var(--form-color);
+    border-radius: 25px 25px;
+}
+
+.article-middle-dashed-1 {
+    background-color: var(--dashed-bg-color);
+    border: 5px dashed var(--dashed-color);
+    border-radius: 25px 25px;
+}
+
+.img-lg{
+    border-radius: 10px;
+}

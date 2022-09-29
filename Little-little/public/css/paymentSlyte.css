@@ -1,0 +1,171 @@
+.article-top-4{
+  width: 37%;
+}
+
+.article-top-5{
+  width: 20%;
+  float: right;
+}
+
+.article-top-6{
+  width: 120%;
+  margin: -13% -10%
+}
+
+.article-top-7{
+  width: 6%;
+  position: absolute;
+  left: 20%;
+  bottom: -11%;
+}
+
+.article-top-8{
+  width: 10%;
+  position: absolute;
+  right: 5px;
+  bottom: -11%;
+}
+
+.article-top-9{
+  width: 5%;
+  position: absolute;
+  right: 0;
+  bottom: 40%;
+}
+
+.container{
+  padding: 0 !important;
+}
+
+.article-middle-bg-1{
+  background-color: var(--form-color);
+  border-radius: 25px 25px;
+}
+
+.article-middle-bg-2{
+  background-color: var(--form-color);
+  border-radius: 25px 25px;
+}
+
+.article-middle-dashed-1{
+  background-color: var(--dashed-bg-color);
+  border: 5px dashed var(--dashed-color);
+  border-radius: 25px 25px;
+}
+
+label{
+  font-weight: bold;
+}
+
+.article-middle-2{
+  width: 360px;
+  margin-left: 33px;
+  margin-top: -10%;
+}
+
+.article-middle-3{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: -10%;
+  
+}
+
+.article-middle-4{
+  position: absolute;
+  right: 558px;
+  top: 221px;
+  max-width: 127px;
+}
+
+.article-middle-5{
+  width: 170px;
+  position: absolute;
+  left: 3px;
+  /* bottom: 4px; */
+  top: 302px;
+}
+
+.article-middle-dashed-2{
+  background-color: var(--dashed-bg-color);
+  border: 5px dashed var(--dashed-color);
+  border-radius: 25px 25px;
+  padding-right: 0 !important;
+}
+
+
+.article-middle-dashed-1 input[type=text],
+.article-middle-dashed-1 input[type=number],
+.article-middle-dashed-1 input[type=email],
+.article-middle-dashed-1 input[type=date],
+.article-middle-dashed-2 input[type=text],
+.article-middle-dashed-2 input[type=number],
+.article-middle-dashed-2 input[type=email],
+.article-middle-dashed-2 input[type=date]{
+box-shadow: 0px -2px 1px 1px rgb(178 91 11 / 30%);
+}
+
+/* .date::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.expiration-date::-webkit-calendar-picker-indicator {
+  transform: translateX(20rem);
+  position: absolute;
+  z-index: 10;
+} */
+
+
+
+
+
+
+/* .date-wrap::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  display: block;
+  background-color: #FFDE32;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  z-index: 9;
+} */
+
+
+
+
+.form-control{
+  background: #FFFFFF;
+/* inner shadow */
+
+box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+border-radius: 16px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+height: 48px;
+}
+label{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  
+  
+  /* Text */
+  
+  color: #23221F;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
